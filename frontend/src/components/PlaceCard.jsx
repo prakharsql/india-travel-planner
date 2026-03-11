@@ -17,7 +17,7 @@ export default function PlaceCard({ place }) {
             alt={`AI generated view of ${place.name}`}
             loading="lazy"
             onLoad={() => setImgLoaded(true)}
-            style={{ opacity: imgLoaded ? 1 : 0, transition: 'opacity 0.5s ease' }}
+            style={{ opacity: imgLoaded ? 1 : 0, transition: 'opacity 0.6s ease' }}
           />
         )}
       </div>
